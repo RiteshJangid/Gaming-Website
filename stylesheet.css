@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallup.net/wp-content/uploads/2014/10/games/Black_Dishonored_Actor_Game.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #4DB6AC;
+  margin-right: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:0;
+  z-index:10;
+
+  /* Change the z-index property to 10 */
+
+}
+
+.logo {
+  width: 124px;
+  height:65px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+  background-image:url(https://images.unsplash.com/photo-1578364249730-0c4ee16426fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #00B8D4;
+  font-family:cursive;
+
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+
+}
+.lesson-icon img {
+  width:250px;
+  border-radius:50px;
+}
+
+.txt-contents {
+  width: 80%;
+  font-family:cursive;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #34495E ;
+
+}
+.txt-contents a{
+  color:#4DB6AC;
+  background-color: #424242;
+  transition: all 0.5s;
+  margin-top:10px;
+  padding:5px  ;
+  border-radius:10px;
+}
+.txt-contents a:hover {
+  background-color: rgba(255, 255, 255, 0.5);}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  background-image:url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+
+
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color:#FFB74D ;
+  font-size: 12px;
+}
+
+footer {
+  background-color:#000000;
+  padding-top: 30px;
+  height:100px;
+}
